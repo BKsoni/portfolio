@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mango Orchard Estimation</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="default.css" />
+
+    <style type="text/css">
+      .img-container {
+        max-width: 600px;
+      }
+
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <!-- Link around dots-wrapper added after tutorial video -->
+      <a href="index.html">
+        <div class="dots-wrapper">
+          <div id="dot-1" class="browser-dot"></div>
+          <div id="dot-2" class="browser-dot"></div>
+          <div id="dot-3" class="browser-dot"></div>
+        </div>
+      </a>
+
+      <ul id="navigation">
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="main-container">
+      <br />
+
+      <div class="img-container">
+        <img src="images/project2/thumbnail.png" class="image" />
+      </div>
+
+      <h3>Mango orchard Estimation</h3>
+
+      <p>
+        The Mango Orchard Estimation Project is an innovative application of
+        computer vision and machine learning techniques to estimate the number
+        of mangoes in a given orchard using YOLOv8 algorithm. This project
+        involves the creation and utilization of a <a href="https://figshare.com/articles/dataset/MangoYOLO_data_set/13450661/2">custom dataset</a>, which
+        includes images of mango orchards with annotated bounding boxes around
+        individual mangoes.
+      </p>
+      <p>
+        YOLOv8 (You Only Look Once version 8) is a state-of-the-art object
+        detection algorithm known for its speed and accuracy in detecting and
+        localizing objects within images. By training the YOLOv8 model on the
+        custom mango dataset, it learns to recognize mangoes in various sizes,
+        shapes, and orientations.
+      </p>
+      <p>
+        The process begins with data collection, where images of mango orchards
+        are captured from drones or other aerial platforms, providing an aerial
+        view of the entire orchard. These images are then carefully annotated
+        with bounding boxes, indicating the location of each mango within the
+        image.
+      </p>
+      <p>
+        The annotated dataset is used to train the YOLOv8 model, where it learns
+        to generalize mango detection and count across different orchards and
+        varying conditions. The model is fine-tuned and optimized to achieve
+        high accuracy and robustness in mango counting.
+      </p>
+      <p>
+        Once the model is trained, it can be deployed in real-world scenarios to
+        estimate the number of mangoes in a given mango orchard efficiently and
+        accurately. This estimation is valuable for mango farmers, agricultural
+        researchers, and fruit distributors to assess orchard productivity, plan
+        harvests, and manage resources effectively.
+      </p>
+      <p>
+        The Mango Orchard Estimation Project demonstrates the powerful synergy
+        between computer vision, machine learning, and agricultural
+        applications, making it an important tool for enhancing mango farming
+        and management practices.
+      </p>
+
+      <h5>Technologies:</h5>
+      <ul>
+        <li>- Python</li>
+        <li>- Streamlit</li>
+        <li>- Deep Learning</li>
+        <li>- Yolov8</li>
+        <li>- OpenCV</li>
+      </ul>
+
+      <h5>Dashboard</h5>
+      <div class="img-container">
+        <img src="/images/project2/1.png" class="image" />
+      </div>
+    </div>
+  </body>
+</html>
